@@ -7,7 +7,7 @@ def main1(a):
 
 	def menu(a):
 		passwd=getpass.getpass("Enter your Password : ")
-		actualpass="arth"
+		actualpass=""
 		if passwd!=actualpass:
 			print("Incorrect Password...")
 			exit()
